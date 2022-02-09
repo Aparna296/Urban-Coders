@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <title> Hindi Swar Vyanjan Identification </title>
+</head>
+<body>
+    <div class="container">
+        <div class="nav-wrapper">
+            <div class = "left-side">
+                <img src = "" height = "" width = "">
+                <div class = "nav-link-wrapper">
+                    <a href = "index.html"> Home </a>
+                </div>
+                <div class = "nav-link-wrapper">
+                    <a href = "game2.html"> Game2 </a>
+                </div>
+                <div class="nav-link-wrapper">
+                    <a href = "game3.html"> Game3 </a>
+                </div>
+                <div class="nav-link-wrapper">
+                    <a href = "game4.html"> Game4 </a>
+                </div>
+                <div class="nav-link-wrapper">
+                    <a href = "game5.html"> Game5 </a>
+                </div>
+                <div class="nav-link-wrapper">
+                    <a href = "game6.html" > Game6 </a>
+                </div>
+            </div> 
+            <div class = "right-side">
+                <div class = "login">
+                    <a href = "login.html"> Login </a>
+                </div>
+        </div>
+    </div>
+
+    <div class="wrapper">
+        <div class="scoreboard">
+            <!-- <div class="title">
+                <img src = " " />
+            </div> -->
+            <div class="score">
+                <p> SCORE </p>
+                <h1 id="scoreCount"> 0 </h1>
+            </div>
+        </div>
+
+        <div class="button_container" style="margin: 10px auto;">
+            <button onclick= "getComputerChoice(); getUserOptions();" type = "button" id = "myButton"> Click Me </button>
+            <button onclick= "restart();" type = "button" id = "myButton"> Restart </button>
+        </div>
+        <div id="showAndHide" style="display: none;margin: auto;
+ 
+        justify-content: center;">
+            <h1>Ans is correct</h1>
+        </div>
+
+        <div id="mainAlphabetsDiv" class="alphabets">
+            <div class="alphabet_container">
+                <img id = "display_computer" height="200" width="200" />
+            </div>
+            <div class="options">
+                <div  class="alphabet option1">
+                    
+                <img id = "display_option1" height="100" width="100" />
+            </div>
+            <div style="display: flex;align-items: center;justify-content: center;gap: 20px;padding: 20px;">
+                <div class="alphabet option2">
+                    <img id = "display_option2" height="100" width="100" />
+                </div>
+                <div class="alphabet option3">
+                    <img id = "display_option3" height="100" width="100" />
+                </div>
+            </div>
+            <img style="position: absolute;
+            top: 19%;
+            left: 17%;
+            height: 260px;
+            width: 233px;
+            z-index: -1;" src="img/Game1/Triangle.png" alt="">
+        </div>
+    </div>
+
+    <h1 id="message" style="margin: auto;padding: 20px;"></h1>
+
+</div>
+<script src = "game3.js"> </script>
+    
+</body>
+</html>
